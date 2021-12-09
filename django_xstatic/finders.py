@@ -4,7 +4,7 @@ from django.conf import settings
 from django.contrib.staticfiles import utils
 from django.contrib.staticfiles.finders import BaseFinder
 
-from storage import XStaticStorage
+from django_xstatic.storage import XStaticStorage
 
 class XStaticFinder(BaseFinder):
     """
